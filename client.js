@@ -10,11 +10,11 @@ const connect = function () {
 
   client.on('connect', () => {
     console.log('we are good to go.. connected to server.');
-    client.write("Name: AT");
 
-    setInterval(()=>{
-      client.write("Move: right");
-    }, 50);
+
+    // setInterval(()=>{
+    //   client.write("Move: right");
+    // }, 50);
 
     // setTimeout(() => {
     //  client.write("Move: left");
