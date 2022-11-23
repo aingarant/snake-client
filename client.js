@@ -8,7 +8,7 @@ const connect = function () {
 
   client.setEncoding("utf8");
 
-  client.on('connect', () => {
+  conn.on('connect', () => {
     console.log('we are good to go.. connected to server.');
 
 
@@ -30,11 +30,11 @@ const connect = function () {
 
   });
 
-  client.on('data', (data) => {
+  conn.on('data', (data) => {
     console.log(data.toString());
   });
 
-  return client;
+  return conn;
 };
 
 module.exports = { connect };
