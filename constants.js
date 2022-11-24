@@ -1,5 +1,5 @@
 
-const IP = '192.168.50.101';
+const IP = '165.227.47.243';
 const PORT = 50541;
 
 const PLAYER = 'AT';
